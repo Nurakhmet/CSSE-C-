@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int number,factorial;
+    factorial = 1;
+    cin>>number;
+    for(int counter = number; counter >= 1; counter--)
+        factorial *= counter;
+        cout<<factorial<<endl;
+        
+}
