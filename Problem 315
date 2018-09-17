@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double a,n;
+    cin>>a>>n;
+    for(int x = n; x <= n; x++)
+    a *= x;
+    cout<<a<<endl;
+}
