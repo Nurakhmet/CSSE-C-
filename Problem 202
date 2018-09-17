@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    int a,x,y,z;
+    cin >> x;
+    cin >> y;
+    cin >> z;
+    a=pow(x,2)+y-z/2;
+    cout<<a<<endl;
+ 
+}
