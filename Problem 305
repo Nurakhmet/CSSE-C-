@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+int main()
+{
+    int x, y ,z;
+    cin>>x>>y>>z;
+    if(pow(z,2)==pow(x,2)+pow(y,2))
+        cout <<  "YES" << endl;
+        else if (pow(y,2)==pow(x,2)+pow(z,2))
+        cout <<  "YES" << endl;
+        else if (pow(x,2)==pow(y,2)+pow(z,2))
+        cout <<  "YES" << endl;
+        else cout << "NO" << endl;
+}
